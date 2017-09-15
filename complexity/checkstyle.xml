@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<checkstyle>
+
+<file name="dist/spel2js.js">
+  
+  <error
+    line="1"
+    severity="info"
+    message="Cyclomatic: 1,
+    Halstead: 12.984
+    | Effort: 52534
+    | Volume: 4046.1
+    | Vocabulary: 100"
+    source="&lt;anonymous&gt;"
+    />
+  
+  <error
+    line="14"
+    severity="info"
+    message="Cyclomatic: 2,
+    Halstead: 10.909
+    | Effort: 2012.5
+    | Volume: 184.48
+    | Vocabulary: 21"
+    source="evalCompiled"
+    />
+  
+  <error
+    line="185"
+    severity="warning"
+    message="Cyclomatic: 9,
+    Halstead: 14.143
+    | Effort: 16523
+    | Volume: 1168.3
+    | Vocabulary: 44"
+    source="eatExpression"
+    />
+  
+  <error
+    line="252"
+    severity="warning"
+    message="Cyclomatic: 10,
+    Halstead: 11.769
+    | Effort: 12357
+    | Volume: 1050.0
+    | Vocabulary: 48"
+    source="eatRelationalExpression"
+    />
+  
+  <error
+    line="297"
+    severity="info"
+    message="Cyclomatic: 4,
+    Halstead: 10.895
+    | Effort: 4609.0
+    | Volume: 423.05
+    | Vocabulary: 28"
+    source="eatSumExpression"
+    />
+  
+  <error
+    line="313"
+    severity="info"
+    message="Cyclomatic: 4,
+    Halstead: 11.786
+    | Effort: 5956.6
+    | Volume: 505.41
+    | Vocabulary: 30"
+    source="eatProductExpression"
+    />
+  
+  <error
+    line="332"
+    severity="info"
+    message="Cyclomatic: 4,
+    Halstead: 9.7500
+    | Effort: 4770.7
+    | Volume: 489.31
+    | Vocabulary: 33"
+    source="eatPowerIncDecExpression"
+    />
+  
+  <error
+    line="355"
+    severity="info"
+    message="Cyclomatic: 6,
+    Halstead: 9.7222
+    | Effort: 7073.0
+    | Volume: 727.51
+    | Vocabulary: 34"
+    source="eatUnaryExpression"
+    />
+  
+  <error
+    line="384"
+    severity="info"
+    message="Cyclomatic: 3,
+    Halstead: 8.7500
+    | Effort: 2385.5
+    | Volume: 272.63
+    | Vocabulary: 26"
+    source="eatPrimaryExpression"
+    />
+  
+  <error
+    line="492"
+    severity="info"
+    message="Cyclomatic: 5,
+    Halstead: 8.7500
+    | Effort: 2829.2
+    | Volume: 323.33
+    | Vocabulary: 27"
+    source="consumeArguments"
+    />
+  
+  <error
+    line="532"
+    severity="info"
+    message="Cyclomatic: 7,
+    Halstead: 3.6667
+    | Effort: 1030.1
+    | Volume: 280.93
+    | Vocabulary: 20"
+    source="eatStartNode"
+    />
+  
+  <error
+    line="552"
+    severity="info"
+    message="Cyclomatic: 4,
+    Halstead: 9.3462
+    | Effort: 4937.7
+    | Volume: 528.32
+    | Vocabulary: 35"
+    source="maybeEatBeanReference"
+    />
+  
+  <error
+    line="575"
+    severity="info"
+    message="Cyclomatic: 5,
+    Halstead: 9.8214
+    | Effort: 5463.5
+    | Volume: 556.28
+    | Vocabulary: 38"
+    source="maybeEatTypeReference"
+    />
+  
+  <error
+    line="631"
+    severity="error"
+    message="Cyclomatic: 9,
+    Halstead: 25.333
+    | Effort: 39140
+    | Volume: 1545.0
+    | Vocabulary: 44"
+    source="maybeEatInlineListOrMap"
+    />
+  
+  <error
+    line="698"
+    severity="info"
+    message="Cyclomatic: 5,
+    Halstead: 10.333
+    | Effort: 6197.0
+    | Volume: 599.71
+    | Vocabulary: 36"
+    source="maybeEatSelection"
+    />
+  
+  <error
+    line="723"
+    severity="info"
+    message="Cyclomatic: 5,
+    Halstead: 10.359
+    | Effort: 5803.0
+    | Volume: 560.17
+    | Vocabulary: 45"
+    source="eatPossiblyQualifiedId"
+    />
+  
+  <error
+    line="743"
+    severity="info"
+    message="Cyclomatic: 3,
+    Halstead: 8.4000
+    | Effort: 2156.8
+    | Volume: 256.76
+    | Vocabulary: 24"
+    source="isValidQualifiedId"
+    />
+  
+  <error
+    line="775"
+    severity="info"
+    message="Cyclomatic: 7,
+    Halstead: 12.467
+    | Effort: 8883.2
+    | Volume: 712.55
+    | Vocabulary: 41"
+    source="maybeEatConstructorReference"
+    />
+  
+  <error
+    line="829"
+    severity="warning"
+    message="Cyclomatic: 8,
+    Halstead: 13.364
+    | Effort: 14412
+    | Volume: 1078.5
+    | Vocabulary: 42"
+    source="maybeEatLiteral"
+    />
+  
+  <error
+    line="869"
+    severity="info"
+    message="Cyclomatic: 7,
+    Halstead: 7.2500
+    | Effort: 2165.4
+    | Volume: 298.68
+    | Vocabulary: 21"
+    source="maybeEatRelationalOperator"
+    />
+  
+  <error
+    line="907"
+    severity="warning"
+    message="Cyclomatic: 6,
+    Halstead: 13.382
+    | Effort: 5121.9
+    | Volume: 382.74
+    | Vocabulary: 30"
+    source="peekTokenConsumeIfMatched"
+    />
+  
+  <error
+    line="930"
+    severity="info"
+    message="Cyclomatic: 4,
+    Halstead: 8.0882
+    | Effort: 2021.9
+    | Volume: 249.98
+    | Vocabulary: 28"
+    source="peekTokenAny"
+    />
+  
+  <error
+    line="952"
+    severity="info"
+    message="Cyclomatic: 2,
+    Halstead: 8.5500
+    | Effort: 1598.1
+    | Volume: 186.91
+    | Vocabulary: 19"
+    source="peekSelectToken"
+    />
+  
+  <error
+    line="1039"
+    severity="info"
+    message="Cyclomatic: 1,
+    Halstead: 11.083
+    | Effort: 1517.5
+    | Volume: 136.92
+    | Vocabulary: 13"
+    source="create"
+    />
+  
+  <error
+    line="1045"
+    severity="info"
+    message="Cyclomatic: 3,
+    Halstead: 8.5500
+    | Effort: 1452.8
+    | Volume: 169.92
+    | Vocabulary: 19"
+    source="context.hasRole"
+    />
+  
+  <error
+    line="1081"
+    severity="info"
+    message="Cyclomatic: 1,
+    Halstead: 8.4583
+    | Effort: 4525.7
+    | Volume: 535.05
+    | Vocabulary: 31"
+    source="&lt;anonymous&gt;"
+    />
+  
+  <error
+    line="1279"
+    severity="info"
+    message="Cyclomatic: 2,
+    Halstead: 8.8000
+    | Effort: 683.84
+    | Volume: 77.709
+    | Vocabulary: 13"
+    source="&lt;anonymous&gt;.valueOf"
+    />
+  
+  <error
+    line="1310"
+    severity="warning"
+    message="Cyclomatic: 6,
+    Halstead: 18.844
+    | Effort: 10413
+    | Volume: 552.62
+    | Vocabulary: 25"
+    source="init"
+    />
+  
+  <error
+    line="1339"
+    severity="error"
+    message="Cyclomatic: 17,
+    Halstead: 26.797
+    | Effort: 1.1218e+5
+    | Volume: 4186.4
+    | Vocabulary: 125"
+    source="process"
+    />
+  
+  <error
+    line="1525"
+    severity="warning"
+    message="Cyclomatic: 5,
+    Halstead: 13.558
+    | Effort: 6028.8
+    | Volume: 444.68
+    | Vocabulary: 41"
+    source="lexQuotedStringLiteral"
+    />
+  
+  <error
+    line="1551"
+    severity="warning"
+    message="Cyclomatic: 5,
+    Halstead: 13.558
+    | Effort: 6028.8
+    | Volume: 444.68
+    | Vocabulary: 41"
+    source="lexDoubleQuotedStringLiteral"
+    />
+  
+  <error
+    line="1594"
+    severity="error"
+    message="Cyclomatic: 18,
+    Halstead: 38.947
+    | Effort: 67465
+    | Volume: 1732.2
+    | Vocabulary: 54"
+    source="lexNumericLiteral"
+    />
+  
+  <error
+    line="1703"
+    severity="info"
+    message="Cyclomatic: 4,
+    Halstead: 11.796
+    | Effort: 5273.4
+    | Volume: 447.04
+    | Vocabulary: 40"
+    source="lexIdentifier"
+    />
+  
+  <error
+    line="1734"
+    severity="info"
+    message="Cyclomatic: 4,
+    Halstead: 9.7826
+    | Effort: 3849.1
+    | Volume: 393.46
+    | Vocabulary: 33"
+    source="pushHexIntToken"
+    />
+  
+  <error
+    line="1866"
+    severity="info"
+    message="Cyclomatic: 2,
+    Halstead: 8.2500
+    | Effort: 1570.8
+    | Volume: 190.40
+    | Vocabulary: 25"
+    source="node.getValue"
+    />
+  
+  <error
+    line="1929"
+    severity="warning"
+    message="Cyclomatic: 3,
+    Halstead: 14.800
+    | Effort: 5348.3
+    | Volume: 361.37
+    | Vocabulary: 27"
+    source="buildContextStack"
+    />
+  
+  <error
+    line="1948"
+    severity="info"
+    message="Cyclomatic: 2,
+    Halstead: 8.7500
+    | Effort: 1599.8
+    | Volume: 182.84
+    | Vocabulary: 22"
+    source="node.getValue"
+    />
+  
+  <error
+    line="2027"
+    severity="info"
+    message="Cyclomatic: 4,
+    Halstead: 11.143
+    | Effort: 2723.6
+    | Volume: 244.42
+    | Vocabulary: 26"
+    source="node.getValue"
+    />
+  
+  <error
+    line="2068"
+    severity="warning"
+    message="Cyclomatic: 4,
+    Halstead: 18.565
+    | Effort: 10832
+    | Volume: 583.46
+    | Vocabulary: 37"
+    source="node.getValue"
+    />
+  
+  <error
+    line="2194"
+    severity="warning"
+    message="Cyclomatic: 6,
+    Halstead: 16.935
+    | Effort: 13003
+    | Volume: 767.78
+    | Vocabulary: 46"
+    source="node.getValue"
+    />
+  
+  <error
+    line="2598"
+    severity="warning"
+    message="Cyclomatic: 4,
+    Halstead: 14.393
+    | Effort: 4174.6
+    | Volume: 290.05
+    | Vocabulary: 27"
+    source="node.getValue"
+    />
+  
+  <error
+    line="2771"
+    severity="info"
+    message="Cyclomatic: 4,
+    Halstead: 11.367
+    | Effort: 3045.4
+    | Volume: 267.93
+    | Vocabulary: 26"
+    source="node.getValue"
+    />
+  
+  <error
+    line="2810"
+    severity="info"
+    message="Cyclomatic: 5,
+    Halstead: 10.524
+    | Effort: 3587.1
+    | Volume: 340.86
+    | Vocabulary: 34"
+    source="node.getValue"
+    />
+  
+  <error
+    line="2911"
+    severity="info"
+    message="Cyclomatic: 2,
+    Halstead: 9.0357
+    | Effort: 1804.3
+    | Volume: 199.69
+    | Vocabulary: 25"
+    source="selectFromArray"
+    />
+  
+  <error
+    line="2929"
+    severity="error"
+    message="Cyclomatic: 5,
+    Halstead: 21.636
+    | Effort: 13759
+    | Volume: 635.90
+    | Vocabulary: 36"
+    source="selectFromMap"
+    />
+  
+  <error
+    line="2976"
+    severity="info"
+    message="Cyclomatic: 4,
+    Halstead: 8.2500
+    | Effort: 1449.5
+    | Volume: 175.69
+    | Vocabulary: 21"
+    source="node.getValue"
+    />
+  
+  <error
+    line="3007"
+    severity="error"
+    message="Cyclomatic: 5,
+    Halstead: 21.903
+    | Effort: 19754
+    | Volume: 901.89
+    | Vocabulary: 55"
+    source="createSpelNode"
+    />
+  
+  <error
+    line="3061"
+    severity="info"
+    message="Cyclomatic: 2,
+    Halstead: 8.0357
+    | Effort: 1744.8
+    | Volume: 217.13
+    | Vocabulary: 23"
+    source="node.toString"
+    />
+  
+  <error
+    line="3110"
+    severity="warning"
+    message="Cyclomatic: 2,
+    Halstead: 13.714
+    | Effort: 2464.7
+    | Volume: 179.72
+    | Vocabulary: 15"
+    source="stripQuotes"
+    />
+  
+  <error
+    line="3174"
+    severity="info"
+    message="Cyclomatic: 4,
+    Halstead: 10.000
+    | Effort: 2329.9
+    | Volume: 232.99
+    | Vocabulary: 27"
+    source="node.getValue"
+    />
+  
+  <error
+    line="1"
+    severity="info"
+    message="Cyclomatic: 2,
+    Halstead: 10.800
+    | Effort: 1589.3
+    | Volume: 147.16
+    | Vocabulary: 22"
+    source="e"
+    />
+  
+  <error
+    line="1"
+    severity="warning"
+    message="Cyclomatic: 5,
+    Halstead: 19.429
+    | Effort: 9817.6
+    | Volume: 505.32
+    | Vocabulary: 37"
+    source="s"
+    />
+  
+  <error
+    line="1"
+    severity="info"
+    message="Cyclomatic: 6,
+    Halstead: 12.100
+    | Effort: 4038.1
+    | Volume: 333.73
+    | Vocabulary: 26"
+    source="&lt;anonymous&gt;"
+    />
+  
+</file>
+
+
+
+</checkstyle>
